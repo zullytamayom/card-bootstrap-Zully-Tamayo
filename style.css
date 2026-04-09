@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(135deg, #262729, #00BFFF);
+}
+
+.personal-card {
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.personal-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+.img-profile {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  object-fit: cover;
+
+  max-width: none !important;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
